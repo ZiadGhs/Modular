@@ -1,0 +1,45 @@
+
+  
+  .AddBook h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .AddBook form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .AddBook form input[type="text"],
+  .AddBook form input[type="number"],
+  .AddBook form input[type="date"],
+  .AddBook form textarea {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .AddBook form textarea {
+    height: 100px;
+  }
+  
+  .AddBook form button {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+  
+  .AddBook form button:hover {
+    background-color: #0056b3;
+  }
+  
